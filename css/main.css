@@ -39,3 +39,10 @@ h1 {
 	font-family: Capriola, Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
 }
+
+#tagline h1 {
+	font-family: Lobster, Helvetica, Arial, sans-serif;
+	font-size: 2.0em;
+	float: right;
+	margin: .5em;
+	
