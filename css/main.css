@@ -17,3 +17,25 @@ easy horticulture lobster
 other h1,h2,h3 sintony
 -----------------------------------------------------*/
 
+body {
+	font: 100% Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	background: #fff;
+	font-weight:normal;
+	font-style:normal;
+	width: 980px;
+	margin: 0 auto;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+h1 {
+	font-family: Capriola, Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+}
