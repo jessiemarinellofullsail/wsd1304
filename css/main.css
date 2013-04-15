@@ -40,9 +40,51 @@ h1 {
 	font-size: 1.8em;
 }
 
+/*************************header*************************************************/
 #tagline h1 {
 	font-family: Lobster, Helvetica, Arial, sans-serif;
+	color: #2D032E;
 	font-size: 2.0em;
 	float: right;
 	margin: .5em;
-	
+}
+
+/*************************nav*************************************************/
+nav {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+nav li {
+	float: right;
+	margin-left: 3.2em;
+}
+
+nav a {
+	text-transform: uppercase;
+	display: block;
+	color: #2D032E;
+	border: none;
+	text-align: center;
+	padding-right: 1.5em;
+}
+
+a:visited { 
+	color: #92C425;
+	text-decoration: none;
+	font-weight: normal;	 
+}
+
+a:hover {
+	color: #FA4225;
+	text-decoration: none;
+	font-weight: normal;	 
+}
+
+a:active {
+	color: #98D4B3;
+	text-decoration: none;
+	font-weight: normal;
+}
+
