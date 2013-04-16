@@ -105,3 +105,19 @@ aside h3 {
 	color: #2D032E;
 	text-shadow: 2px 2px 2px #666
 }
+
+/*************************gallery*************************************************/
+
+.gallery {
+	border: 1px dashed #FA4225;
+	list-style-type: none;
+	width: 930px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 20px;
+}
+
+.gallery li {
+	float: left;
+	margin-left: 30px;
+}
