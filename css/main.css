@@ -96,3 +96,12 @@ a:active {
 	font-weight: normal;
 }
 
+/*************************aside*************************************************/
+
+aside h3 {
+	font-family: 'Sintony', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #2D032E;
+	text-shadow: 2px 2px 2px #666
+}
