@@ -108,16 +108,29 @@ aside h3 {
 
 /*************************gallery*************************************************/
 
-.gallery {
+#gallery ul {
 	border: 1px dashed #FA4225;
 	list-style-type: none;
-	width: 930px;
+	width: 960px;
 	margin: 20px auto;
 	overflow: hidden;
 	padding: 20px;
 }
 
-.gallery li {
+#gallery li {
 	float: left;
-	margin-left: 30px;
+	margin: 20px;
+}
+
+/*************************article*************************************************/
+
+article h2 {
+	color: #FA4225;
+}
+
+#columnContent {
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	padding: 10px;
+	clear: both;
 }
