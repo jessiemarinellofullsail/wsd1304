@@ -98,6 +98,11 @@ a:active {
 
 /*************************aside*************************************************/
 
+aside {
+	border-style: solid;
+	border-color: red;
+}
+
 aside h3 {
 	font-family: 'Sintony', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
