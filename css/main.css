@@ -136,7 +136,19 @@ aside h3 {
 	text-shadow: 2px 2px 2px #666
 }
 
+/*************************topics*************************************************/
+
+#topics {
+	border-style: solid;
+	border-color: red;
+}
+
 /*************************gallery*************************************************/
+
+#gallery {
+	border-style: solid;
+	border-color: red;
+}
 
 #gallery ul {
 	border: 1px dashed #FA4225;
