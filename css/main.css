@@ -96,6 +96,31 @@ a:active {
 	font-weight: normal;
 }
 
+/*************************intro*************************************************/
+
+#intro {
+	border-style: solid;
+	border-color: red;
+}
+
+/*************************article*************************************************/
+
+article {
+	border-style: solid;
+	border-color: red;
+}
+
+article h2 {
+	color: #FA4225;
+}
+
+#columnContent {
+	-moz-column-count: 3;
+	-moz-column-gap: 25px;
+	padding: 10px;
+	clear: both;
+}
+
 /*************************aside*************************************************/
 
 aside {
@@ -125,17 +150,4 @@ aside h3 {
 #gallery li {
 	float: left;
 	margin: 20px;
-}
-
-/*************************article*************************************************/
-
-article h2 {
-	color: #FA4225;
-}
-
-#columnContent {
-	-moz-column-count: 3;
-	-moz-column-gap: 25px;
-	padding: 10px;
-	clear: both;
 }
