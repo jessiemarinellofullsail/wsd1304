@@ -9,6 +9,7 @@ rusty orange #FA4225
 sea foam #98D4B3
 lime #92C425
 eggplant #2D032E
+terra cotta #f55d2d
 ------------------------------------------------------*/
 
 /*Font Info-------------------------------------------
@@ -101,6 +102,10 @@ a:active {
 #intro {
 	border-style: solid;
 	border-color: red;
+	background-color: #333;
+	width: 455px;
+	height: 329px;
+	float: right;
 }
 
 /*************************article*************************************************/
