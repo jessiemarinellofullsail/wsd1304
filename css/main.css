@@ -46,6 +46,12 @@ h2, h3 {
 	font: 1.5em Sitony, Helvetica, Arial, sans-serif;
 }
 
+span {
+	font-family: Lobster, Helvetica, Arial, sans-serif;
+	color: #C2CF4A;
+	font-size: 1.250em;
+}
+
 /*************************header*************************************************/
 
 header {
@@ -148,14 +154,13 @@ a:active {
 
 /*************************article*************************************************/
 
-article {
-	border-style: solid;
-	border-color: red;
-	padding: 10px;
-}
-
 article h2 {
 	color: #FA4225;
+	width: 980px;
+	height: 50px;
+	background-color: #2D032E;
+	padding-top: 20px;
+	margin-top: 2px;
 }
 
 #columnContent {
@@ -170,14 +175,23 @@ article h2 {
 aside {
 	border-style: solid;
 	border-color: red;
+	width: 340px;
+	height: 190px;
+	float: right;
 }
 
 aside h3 {
 	font-family: 'Sintony', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	font-weight: normal;
-	color: #2D032E;
-	text-shadow: 2px 2px 2px #666
+	color: #000;
+	text-shadow: 2px 2px 2px #666;
+	padding-left: 10px;
+}
+
+aside p {
+	padding-left: 10px;
+	color: #000;
 }
 
 .button {
@@ -191,6 +205,7 @@ aside h3 {
 	box-shadow: inset 4px 4px 3px #c1cbcc;
 	text-indent: 33px;
 	text-shadow: 1px 1px 1px #666;
+	margin: 10px;
 }
 
 /*************************topics*************************************************/
@@ -199,6 +214,9 @@ aside h3 {
 	border-style: solid;
 	border-color: red;
 	padding: 10px;
+	width: 600px;
+	float: left;
+	clear: both;
 }
 
 /*************************gallery*************************************************/
@@ -206,6 +224,9 @@ aside h3 {
 #gallery {
 	border-style: solid;
 	border-color: red;
+	background-color: #3c3c3a;
+	width: 980px;
+	height: 1123px;
 }
 
 #gallery ul {
@@ -214,7 +235,7 @@ aside h3 {
 	width: 960px;
 	margin: 20px auto;
 	overflow: hidden;
-	padding: 20px;
+	padding: 10px;
 }
 
 #gallery li {
