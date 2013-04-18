@@ -102,23 +102,28 @@ a:active {
 .background {
   width: 980px;
   height: 340px;
-  background: url(../images/swiss-chard.jpg) no-repeat;
+  background: url(../images/fresh_vegetables.jpg) no-repeat;
   border: none;
 }
 
 .transbox {
-  width:400px;
-  height:180px;
-  margin:30px 50px;
-  background-color:#ffffff;
-  border:none;
-  opacity:0.6;
+  width: 462px;
+  height: 340px;
+  margin: 30px 518px;
+  background-color: #ffffff;
+  border: none;
+  opacity: 0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox h1 {
+	margin: 30px 40px;
+	color: #000;
 }
   
 .transbox p {
-  margin:30px 40px;
-  color:#000000;
+  margin: 30px 40px;
+  color: #000;
 }
 
 /*************************article*************************************************/
