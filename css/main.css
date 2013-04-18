@@ -60,7 +60,6 @@ header img {
 
 header h1 {
 	float: left;
-	padding-top: 30px;
 	clear:both;
 }
 
@@ -152,6 +151,7 @@ a:active {
 article {
 	border-style: solid;
 	border-color: red;
+	padding: 10px;
 }
 
 article h2 {
@@ -197,6 +197,7 @@ aside h3 {
 #topics {
 	border-style: solid;
 	border-color: red;
+	padding: 10px;
 }
 
 /*************************gallery*************************************************/
@@ -218,4 +219,8 @@ aside h3 {
 #gallery li {
 	float: left;
 	margin: 4px;
+}
+
+#gallery h3 {
+	padding-left: 10px;
 }
