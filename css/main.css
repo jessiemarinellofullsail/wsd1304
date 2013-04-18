@@ -227,31 +227,37 @@ aside p {
 
 #gallery {
 	clear:both;
+	background-color: #2D032E;
 }
 
 #gallery ul {
-	border: 1px dashed #FA4225;
 	list-style-type: none;
 	width: 960px;
-	margin: 20px auto;
+	margin: 10px auto;
 	overflow: hidden;
 	padding: 10px;
 }
 
 #gallery li {
 	float: left;
-	margin: 4px;
+	margin: 10px;
 }
 
 #gallery h3 {
-	padding-left: 10px;
+	font-family: Lobster, Helvetica, Arial, sans-serif;
+	font-size: 2.0em;
+	letter-spacing: 0.200em;
+	padding-top: 20px;
+	padding-left: 7px;
+	margin: 10px;
+	color: #FA4225;
 }
 
 /*************************footer*************************************************/
 
 footer {
 	width: 980px;
-	height: 45px;
+	height: 55px;
 	background-color: #C2CF4A;
 }
 
