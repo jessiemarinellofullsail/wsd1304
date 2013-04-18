@@ -77,6 +77,7 @@ nav {
 nav li {
 	float: right;
 	margin-left: 3.2em;
+	overflow: hidden;
 }
 
 nav ul {
