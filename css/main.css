@@ -39,6 +39,7 @@ em {
 h1 {
 	font-family: Capriola, Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
+	color: #C2CF4A;
 }
 
 h2, h3 {
@@ -46,9 +47,14 @@ h2, h3 {
 }
 
 /*************************header*************************************************/
+
+header {
+	border-top: 0.375em solid #C2CF4A;
+}
+
 #tagline h1 {
 	font-family: Lobster, Helvetica, Arial, sans-serif;
-	color: #2D032E;
+	color: #C2CF4A;
 	font-size: 2.0em;
 	float: right;
 	margin: .5em;
@@ -110,20 +116,20 @@ a:active {
   width: 462px;
   height: 340px;
   margin: 30px 518px;
-  background-color: #ffffff;
+  background-color: #000;
   border: none;
-  opacity: 0.6;
+  opacity: 0.7;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 
 .transbox h1 {
 	margin: 30px 40px;
-	color: #000;
+	color: #fff;
 }
   
 .transbox p {
   margin: 30px 40px;
-  color: #000;
+  color: #fff;
 }
 
 /*************************article*************************************************/
