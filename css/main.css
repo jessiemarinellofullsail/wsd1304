@@ -100,7 +100,7 @@ nav a {
 }
 
 a:visited { 
-	color: #92C425;
+	color: #C2CF4A;
 	text-decoration: none;
 	font-weight: normal;	 
 }
@@ -182,14 +182,15 @@ aside h3 {
 
 .button {
 	background-color: #92C425;
-	border: 3px solid #646266;
+	border: 1px solid #92C425;
 	border-radius: 10px;
 	padding: 1%;
 	width: 125px;
 	-moz-box-shadow: inset 3px 3px 3px #c1cbcc;
 	-webkit-box-shadow: inset 3px 3px 3px #c1cbcc;
-	box-shadow: inset 3px 3px 3px #c1cbcc;
-	text-indent: 33px
+	box-shadow: inset 4px 4px 3px #c1cbcc;
+	text-indent: 33px;
+	text-shadow: 1px 1px 1px #666;
 }
 
 /*************************topics*************************************************/
