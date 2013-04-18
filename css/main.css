@@ -49,7 +49,7 @@ h2, h3 {
 span {
 	font-family: Lobster, Helvetica, Arial, sans-serif;
 	color: #C2CF4A;
-	font-size: 1.250em;
+	font-size: 1.375em;
 }
 
 /*************************header*************************************************/
@@ -60,11 +60,13 @@ header {
 
 header img {
 	padding-top: 50px;
+	padding-right: 50px;
 	float: left;
 	clear: both;
 }
 
-header h1 {
+#siteName h1 {
+	padding-top: 50px;
 	float: left;
 	clear:both;
 }
