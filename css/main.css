@@ -52,6 +52,10 @@ header {
 	border-top: 0.375em solid #C2CF4A;
 }
 
+header img {
+	float: left;
+}
+
 #tagline h1 {
 	font-family: Lobster, Helvetica, Arial, sans-serif;
 	color: #C2CF4A;
