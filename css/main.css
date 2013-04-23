@@ -24,7 +24,7 @@ body {
 	background: #fff;
 	font-weight:normal;
 	font-style:normal;
-	width: 980px;
+	max-width: 980px;
 	margin: 0 auto;
 }
 
@@ -135,7 +135,7 @@ a:active {
 }
 
 .transbox {
-  width: 462px;
+  width: 47.14285% /*462px*/;
   height: 340px;
   margin: 30px 518px;
   background-color: #000;
@@ -177,6 +177,7 @@ article h2 {
 aside {
 	width: 340px;
 	float: right;
+	margin-top: 30px;
 }
 
 aside h3 {
