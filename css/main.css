@@ -128,14 +128,14 @@ a:active {
 /*************************intro*************************************************/
 
 .background {
-  width: 980px;
+  width: 100% /*980px*/;
   height: 340px;
   background: url(../images/fresh_vegetables.jpg) no-repeat;
   border: none;
 }
 
 .transbox {
-  width: 47.14285% /*462px*/;
+  width: 47.14285% /*462px/980px*/;
   height: 340px;
   margin: 30px 518px;
   background-color: #000;
@@ -158,7 +158,7 @@ a:active {
 
 article h2 {
 	color: #FA4225;
-	width: 980px;
+	width: 100% /*980px*/;
 	height: 50px;
 	background-color: #2D032E;
 	padding-top: 20px;
