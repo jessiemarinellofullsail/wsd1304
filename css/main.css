@@ -85,7 +85,7 @@ header img {
 nav {
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding-left: 50px;
+	padding-left: 3.125em /*50px*/;
 	clear: both;
 }
 
