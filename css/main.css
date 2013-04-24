@@ -215,7 +215,7 @@ aside p {
 
 #topics {
 	padding: 10px;
-	width: 600px;
+	width: 61.22448% /*600px/980*/;
 	float: left;
 	clear: both;
 }
