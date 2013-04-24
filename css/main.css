@@ -216,7 +216,7 @@ aside p {
 /*************************topics*************************************************/
 
 #topics {
-	padding: 10px;
+	padding: 0.6253m /*10px*/;
 	width: 61.22448% /*600px/980*/;
 	float: left;
 	clear: both;
