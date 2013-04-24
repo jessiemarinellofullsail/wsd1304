@@ -137,7 +137,7 @@ a:active {
 .transbox {
   width: 47.14285% /*462px/980px*/;
   height: 21.250em /*340px*/;
-  margin: 30px 518px;
+  margin: 1.875em /*30px*/ 32.375em /*518px*/;
   background-color: #000;
   border: none;
   opacity:  0.699999988079071044921875;
