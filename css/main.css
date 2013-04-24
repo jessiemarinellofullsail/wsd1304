@@ -231,6 +231,8 @@ aside p {
 #gallery {
 	clear:both;
 	background-color: #2D032E;
+	width: 980px;
+	height: 864px;
 }
 
 #gallery ul {
