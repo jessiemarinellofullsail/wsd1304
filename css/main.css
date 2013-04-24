@@ -257,7 +257,7 @@ aside p {
 /*************************footer*************************************************/
 
 footer {
-	width: 980px;
+	width: 100% /*980px*/;
 	height: 55px;
 	background-color: #C2CF4A;
 }
