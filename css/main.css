@@ -233,7 +233,7 @@ aside p {
 
 #gallery ul {
 	list-style-type: none;
-	width: 960px;
+	width: 97.95918% /*960px/980*/;
 	margin: 10px auto;
 	overflow: hidden;
 	padding: 10px;
