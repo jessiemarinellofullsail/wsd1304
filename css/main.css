@@ -129,7 +129,7 @@ a:active {
 
 .background {
   width: 100% /*980px*/;
-  height: 340px;
+  height: 21.250em /*340px*/;
   background: url(../images/fresh_vegetables.jpg) no-repeat;
   border: none;
 }
@@ -145,12 +145,14 @@ a:active {
 }
 
 .transbox h1 {
-	margin: 30px 40px;
+	margin-left: 1.500em /*24px*/; 
+	margin-right: 1.500em /*24px*/;
+	padding-top: 10px;
 	color: #fff;
 }
   
 .transbox p {
-  margin: 30px 40px;
+  margin: 1.875em /*30px*/ 2.500em /*40px*/;
   color: #fff;
 }
 
