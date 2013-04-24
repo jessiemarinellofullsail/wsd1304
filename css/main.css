@@ -236,23 +236,23 @@ aside p {
 #gallery ul {
 	list-style-type: none;
 	width: 97.95918% /*960px/980*/;
-	margin: 10px auto;
 	overflow: hidden;
-	padding: 10px;
+	padding: 0.625em /*10px*/;
 }
 
 #gallery li {
 	float: left;
-	margin: 10px;
+	margin: 0.625em /*10px*/;
+	margin-top: 0.250em;
 }
 
 #gallery h3 {
 	font-family: Lobster, Helvetica, Arial, sans-serif;
 	font-size: 2.0em;
 	letter-spacing: 0.200em;
-	padding-top: 20px;
-	padding-left: 7px;
-	margin: 10px;
+	padding-top: 0.625em /*10px*/;
+	padding-left: 0.438em /*7px*/;
+	margin: 0.625em /*10px*/;
 	color: #FA4225;
 }
 
