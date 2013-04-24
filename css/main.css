@@ -161,10 +161,10 @@ a:active {
 article h2 {
 	color: #FA4225;
 	width: 100% /*980px*/;
-	height: 50px;
+	height: 2.00em /*40px*/;
 	background-color: #2D032E;
-	padding-top: 20px;
-	margin-top: 2px;
+	padding-top: 0.938em /*15px*/;
+	margin-top: 0.100em /*2px*/;
 }
 
 #columnContent {
