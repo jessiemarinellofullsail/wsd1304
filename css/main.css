@@ -310,6 +310,10 @@ nav a {
 	padding-right: 5.31803% /*51px/959*/;
 }
 
+.transbox p {
+	font-size: 0.938em;
+}
+
 }
 
 /*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
