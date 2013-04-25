@@ -90,12 +90,12 @@ nav {
 
 nav li {
 	float: left;
-	margin-left: 3.2em;
+	margin-left: 5.20408% /*3.2em; 51px/980*/;
 }
 
 nav ul {
 	list-style: none;
-	width: 525px;
+	width: 30.61224% /*300px/980*/;
 	float: right;
 }
 
@@ -105,7 +105,7 @@ nav a {
 	color: #2D032E;
 	border: none;
 	text-align: center;
-	padding-right: 1.5em;
+	padding-right: 5.20408% /*3.2em; 51px/980*/;
 }
 
 a:visited { 
@@ -138,7 +138,7 @@ a:active {
 .transbox {
   width: 47.14285% /*462px/980px*/;
   height: 21.250em /*340px*/;
-  margin: 1.875em /*30px*/ 32.375em /*518px*/;
+  margin: 3.06122% /*1.875em; 30px/980*/ 52.85714% /*32.375em; 518px/980*/;
   background-color: #000;
   border: none;
   opacity:  0.699999988079071044921875;
