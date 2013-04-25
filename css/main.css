@@ -259,6 +259,10 @@ aside p {
 	color: #FA4225;
 }
 
+#gallery img {
+	max-width: 100%;
+}
+
 /*************************footer*************************************************/
 
 footer {
@@ -279,6 +283,32 @@ footer p {
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
 @media screen and (min-width: 768px) and (max-width: 959px) {
 
+nav {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 52.13764% /*500px/959*/;
+	clear: both;
+}
+
+nav li {
+	float: left;
+	margin-left: 5.31803% /*51px/959*/;
+}
+
+nav ul {
+	list-style: none;
+	width: 100%;
+	float: right;
+}
+
+nav a {
+	text-transform: uppercase;
+	display: block;
+	color: #2D032E;
+	border: none;
+	text-align: center;
+	padding-right: 5.31803% /*51px/959*/;
+}
 
 }
 
