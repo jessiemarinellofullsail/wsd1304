@@ -75,7 +75,7 @@ header img {
 	color: #C2CF4A;
 	font-size: 2.0em;
 	float: right;
-	margin: .5em;
+	margin: 0.81632% /*.5em; 8px*/;
 	clear: both;
 }
 
@@ -84,7 +84,7 @@ header img {
 nav {
 	overflow: hidden;
 	margin-bottom: 1.5em;
-	padding-left: 3.125em /*50px*/;
+	padding-left: 5.10204% /*3.125em; *50px/980*/;
 	clear: both;
 }
 
