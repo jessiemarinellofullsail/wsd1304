@@ -170,8 +170,8 @@ article h2 {
 
 #columnContent {
 	-moz-column-count: 3;
-	-moz-column-gap: 1.250em /*25px*/;
-	padding: 0.625em /*10px*/;
+	-moz-column-gap: 2.55102% /*1.250em; 25px/980*/;
+	padding: 1.0204% /*0.625em; 10px/980*/;
 	clear: both;
 }
 
