@@ -232,7 +232,7 @@ aside p {
 #gallery {
 	clear:both;
 	background-color: #2D032E;
-	width: 980px;
+	width: 100% /*980px*/;
 	height: 864px;
 }
 
@@ -240,12 +240,12 @@ aside p {
 	list-style-type: none;
 	width: 97.95918% /*960px/980*/;
 	overflow: hidden;
-	padding: 0.625em /*10px*/;
+	padding: 1.0204% /*0.625em; 10px/980*/;
 }
 
 #gallery li {
 	float: left;
-	margin: 0.625em /*10px*/;
+	margin: 1.04166% /*0.625em; 10px/960*/;
 	margin-top: 0.250em;
 }
 
@@ -254,8 +254,8 @@ aside p {
 	font-size: 2.0em;
 	letter-spacing: 0.200em;
 	padding-top: 0.625em /*10px*/;
-	padding-left: 0.438em /*7px*/;
-	margin: 0.625em /*10px*/;
+	padding-left: 0.71428% /*0.438em; 7px/980*/;
+	margin: 1.0204% /*0.625em; 10px/980*/;
 	color: #FA4225;
 }
 
@@ -271,7 +271,7 @@ footer p {
 	font-family: Capriola, Helvetica, Arial, sans-serif;
 	font-size: 1.0em;
 	color: #2D032E;
-	padding: 0.625em /*10px*/;
+	padding: 1.0204% /*0.625em; 10px/980*/;
 }
 
 /****************************Media Queries*************************************/
