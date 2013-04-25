@@ -89,12 +89,14 @@ nav {
 }
 
 nav li {
-	float: right;
+	float: left;
 	margin-left: 3.2em;
 }
 
 nav ul {
 	list-style: none;
+	width: 525px;
+	float: right;
 }
 
 nav a {
