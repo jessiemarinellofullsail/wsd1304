@@ -189,11 +189,11 @@ aside h3 {
 	font-weight: normal;
 	color: #000;
 	text-shadow: 2px 2px 2px #666;
-	padding-left: 1.250em /*20px*/;
+	padding-left: 5.88235% /*1.250em; 20px/340*/;
 }
 
 aside p {
-	padding-left: 1.250em /*20px*/;
+	padding-left: 5.88235% /*1.250em; 20px/340*/;
 	color: #000;
 }
 
@@ -209,9 +209,9 @@ aside p {
 	font-family: Capriola, Helvetica, Arial, sans-serif;
 	color: #2D032E;
 	font-size: 1.0em;
-	text-indent: 33px;
+	text-align: center;
 	text-shadow: 1px 1px 1px #666;
-	margin-left: 1.250em /*20px*/;
+	margin-left: 5.88235% /*1.250em; 20px/340*/;
 }
 
 /*************************topics*************************************************/
