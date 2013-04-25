@@ -146,14 +146,14 @@ a:active {
 }
 
 .transbox h1 {
-	margin-left: 1.500em /*24px*/; 
-	margin-right: 1.500em /*24px*/;
+	margin-left: 2.44897% /*1.500em; 24px/980*/; 
+	margin-right: 2.44897% /*1.500em; 24px/980*/;
 	padding-top: 10px;
 	color: #fff;
 }
   
 .transbox p {
-  margin: 1.875em /*30px*/ 2.500em /*40px*/;
+  margin: 3.06122% /*1.875em; 30px/980*/ 4.08163% /*2.500em; 40px/980*/;
   color: #fff;
 }
 
