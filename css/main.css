@@ -237,10 +237,10 @@ aside p {
 }
 
 #gallery ul {
-	list-style-type: none;
-	width: 97.95918% /*960px/980*/;
-	overflow: hidden;
-	padding: 1.0204% /*0.625em; 10px/980*/;
+    width: 100%;
+    margin:0;padding:0; /* CSS Reset */
+    max-width: 1000px; /* restrict the width */
+    margin: auto; /* center it */
 }
 
 #gallery li {
@@ -312,6 +312,13 @@ nav a {
 
 .transbox p {
 	font-size: 0.938em;
+}
+
+article h2 {
+	font-size: 1.375em /*40px*/;
+}
+
+
 }
 
 }
