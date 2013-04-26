@@ -424,5 +424,35 @@ li.gallerylist {
 .transbox p {
   display: none;
 }
+
+#topics {
+display: none;
+}
+
+#topics li {
+	display: none;
+}
+
+aside {
+	width: 100% /*340px/980*/;
+	float: none;
+	margin-top: 1.500em /*30px*/;
+}
+
+aside h3 {
+	padding-left: 5px;
+}
+
+aside p {
+	padding-left: 5px;
+}
+
+.button {
+	margin-left: 5px;
+}
+
+footer {
+	background-color: #fff;
+}
 }
 	
