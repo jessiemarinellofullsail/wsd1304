@@ -284,15 +284,6 @@ footer p {
 
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
 @media screen and (min-width: 768px) and (max-width: 959px) {
-
-/*
-nav {
-overflow: hidden;
-margin-bottom: 1.5em;
-padding-left: 5.10204% /*3.125em; *50px/980*/;
-clear: both;
-}
-*/
  
 nav li {
 float: right;
