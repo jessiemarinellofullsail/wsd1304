@@ -244,9 +244,10 @@ aside p {
 }
 
 #gallery li {
-	float: left;
-	margin: 1.04166% /*0.625em; 10px/960*/;
-	margin-top: 0.250em;
+	width: 50%;
+    float:left; /* IMPORTANT */
+    list-style-type: none;
+    display:inline; /* IMPORTANT */
 }
 
 #gallery h3 {
