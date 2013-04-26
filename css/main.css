@@ -89,8 +89,8 @@ nav {
 }
 
 nav li {
-	float: left;
-	margin-left: 5.20408% /*3.2em; 51px/980*/;
+	float: right;
+	margin-right: 5.20408% /*3.2em; 51px/980*/;
 }
 
 nav ul {
@@ -280,45 +280,38 @@ footer p {
 	padding: 1.0204% /*0.625em; 10px/980*/;
 }
 
-/*****************************fixgallery****************/
-#gallerylist {
-    width: 50%;
-    float:left; /* IMPORTANT */
-    list-style-type: none;
-    display:inline; /* IMPORTANT */
-}
-
 /****************************Media Queries*************************************/
 
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
 @media screen and (min-width: 768px) and (max-width: 959px) {
 
+/*
 nav {
-	overflow: hidden;
-	margin-bottom: 1.5em;
-	padding-left: 52.13764% /*500px/959*/;
-	clear: both;
+overflow: hidden;
+margin-bottom: 1.5em;
+padding-left: 5.10204% /*3.125em; *50px/980*/;
+clear: both;
 }
-
+*/
+ 
 nav li {
-	float: left;
-	margin-left: 5.31803% /*51px/959*/;
+float: right;
+margin-right: 5.31803% /*51px/959*/;
 }
-
+ 
 nav ul {
-	list-style: none;
-	width: 100%;
-	float: right;
+list-style: none;
+width: 100%;
+float: right;
 }
-
+ 
 nav a {
-	text-transform: uppercase;
-	display: block;
-	color: #2D032E;
-	border: none;
-	text-align: center;
-	padding-right: 5.31803% /*51px/959*/;
-}
+text-transform: uppercase;
+display: block;
+color: #2D032E;
+border: none;
+text-align: center;
+padding-right: 5.31803% /*51px/959*/;
 
 .transbox p {
 	font-size: 0.938em;
@@ -332,6 +325,14 @@ article h2 {
 
 /*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+li.gallerylist {
+    width: 100%;
+    float:left; /* IMPORTANT */
+    list-style-type: none;
+    display:inline; /* IMPORTANT */
+}
+
 
 
 }
