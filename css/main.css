@@ -236,18 +236,18 @@ aside p {
 	height: 864px;
 }
 
-#gallery ul {
-    width: 100%;
-    margin:0;padding:0; /* CSS Reset */
-    max-width: 1000px; /* restrict the width */
-    margin: auto; /* center it */
+ul.gallerylist {
+    width: 100%;
+    margin:0;padding:0; /* CSS Reset */
+    max-width: 1000px; /* restrict the width */
+    margin: auto; /* center it */
 }
 
-#gallery li {
-	width: 50%;
-    float:left; /* IMPORTANT */
-    list-style-type: none;
-    display:inline; /* IMPORTANT */
+li.gallerylist {
+    width: 50%;
+    float:left; /* IMPORTANT */
+    list-style-type: none;
+    display:inline; /* IMPORTANT */
 }
 
 #gallery h3 {
@@ -264,6 +264,7 @@ aside p {
 	max-width: 100%;
 }
 
+
 /*************************footer*************************************************/
 
 footer {
@@ -277,6 +278,14 @@ footer p {
 	font-size: 1.0em;
 	color: #2D032E;
 	padding: 1.0204% /*0.625em; 10px/980*/;
+}
+
+/*****************************fixgallery****************/
+#gallerylist {
+    width: 50%;
+    float:left; /* IMPORTANT */
+    list-style-type: none;
+    display:inline; /* IMPORTANT */
 }
 
 /****************************Media Queries*************************************/
@@ -317,9 +326,6 @@ nav a {
 
 article h2 {
 	font-size: 1.375em /*40px*/;
-}
-
-
 }
 
 }
