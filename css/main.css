@@ -238,16 +238,16 @@ aside p {
 
 ul.gallerylist {
     width: 100%;
-    margin:0;padding:0; /* CSS Reset */
-    max-width: 1000px; /* restrict the width */
-    margin: auto; /* center it */
+    margin:0;padding:0;
+    max-width: 1000px;
+    margin: auto;
 }
 
 li.gallerylist {
     width: 50%;
-    float:left; /* IMPORTANT */
+    float:left;
     list-style-type: none;
-    display:inline; /* IMPORTANT */
+    display:inline;
 }
 
 #gallery h3 {
@@ -262,8 +262,8 @@ li.gallerylist {
 
 #gallery img {
 	max-width: 100%;
+	padding: 3%;
 }
-
 
 /*************************footer*************************************************/
 
@@ -320,26 +320,109 @@ padding-right: 5.31803% /*51px/959*/;
 article h2 {
 	font-size: 1.375em /*40px*/;
 }
-
 }
 
 /*Mobile Landscape size to Tablet Portrait (devices and browsers)*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
-li.gallerylist {
-    width: 100%;
-    float:left; /* IMPORTANT */
-    list-style-type: none;
-    display:inline; /* IMPORTANT */
+#gallery {
+	background-color: #fff;
 }
 
+#columnContent {
+	-moz-column-count: 2;
+}
 
+.background {
+ display: none;
+}
 
+.transbox {
+  display: none;
+}
+
+.transbox h1 {
+	display: none;
+}
+  
+.transbox p {
+  display: none;
+}
+
+article h2 {
+	font-size: 1.250em;
+}
+
+#topics {
+display: none;
+}
+
+#topics li {
+	display: none;
+}
+
+aside {
+	width: 100% /*340px/980*/;
+	float: none;
+	margin-top: 1.500em /*30px*/;
+}
+
+aside h3 {
+	padding-left: 5px;
+}
+
+aside p {
+	padding-left: 5px;
+}
+
+.button {
+	margin-left: 5px;
+}
+
+li.gallerylist {
+    width: 100%;
+    float:left;
+    list-style-type: none;
+    display:inline;
+}
+
+footer {
+	background-color: #fff;
+}
 }
 
 /*Mobile Portrait size to Mobile Landscape (devices and browsers)*/
 @media only screen and (max-width: 479px) {
 
+li.gallerylist {
+    width: 100%;
+    float:left;
+    list-style-type: none;
+    display:inline;
+}
 
+#gallery {
+	background-color: #fff;
+}
+
+#columnContent {
+	-moz-column-count: 1;
+}
+
+.background {
+ display: none;
+}
+
+.transbox {
+  display: none;
+}
+
+.transbox h1 {
+	display: none;
+}
+  
+.transbox p {
+  display: none;
+}
 }
 	
