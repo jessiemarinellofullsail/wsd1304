@@ -265,6 +265,54 @@ li.gallerylist {
 	padding: 3%;
 }
 
+/*************************table*************************************************/
+
+#growZone h2 {
+	font-family: Capriola, Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	color: #FA4225;
+}
+
+.table {
+	margin-bottom: 50px;
+	padding:0px;
+	width: 100%;
+	box-shadow: 10px 10px 5px #888;
+	border: 1px solid #000;
+	border-radius: 10px;
+}
+
+.table th {
+	text-align: left;
+	vertical-align: middle;
+	border-collapse: collapse;
+	background: -o-linear-gradient(bottom, #92c425 5%, #6c911b 100%);	
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #92c425), color-stop(1, #6c911b) );
+	background: -moz-linear-gradient( center top, #92c425 5%, #6c911b 100% );	
+	background: -o-linear-gradient(top, #92c425, #6c911b);
+	background-color: #92c425;
+	text-align: center;
+	font-size: 14px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+.table td {
+	vertical-align:middle;
+	border-collapse: collapse; 
+	border-width: 0px 1px 1px 0px;
+	text-align: left;
+	padding: 7px;
+	font-size: 12px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #2D032E;
+	background-color: #FA4225;
+ 	opacity:  0.699999988079071044921875;
+  	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+	
 /*************************footer*************************************************/
 
 footer {
@@ -305,7 +353,7 @@ text-align: center;
 padding-right: 5.31803% /*51px/959*/;
 
 .transbox p {
-	font-size: 0.938em;
+	font-size: 1.250em;
 }
 
 article h2 {
