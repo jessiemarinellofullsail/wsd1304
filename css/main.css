@@ -420,9 +420,9 @@ aside p {
 
 li.gallerylist {
     width: 100%;
-    float:left;
+    float:none;
     list-style-type: none;
-    display:inline;
+    display: block;
 }
 
 footer {
@@ -435,9 +435,9 @@ footer {
 
 li.gallerylist {
     width: 100%;
-    float:left;
+    float:none;
     list-style-type: none;
-    display:inline;
+    display:block;
 }
 
 #gallery {
