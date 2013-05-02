@@ -1,15 +1,12 @@
 /*css for feeling beet*/
 
 /*Color Swatch----------------------------------------
-salmon #EA535A
-blue green #369398
 spring green #C2CF4A
-egg shell #F2FCC4
 rusty orange #FA4225
-sea foam #98D4B3
 lime #92C425
 eggplant #2D032E
 terra cotta #f55d2d
+green coordinate gradient #6c911b
 ------------------------------------------------------*/
 
 /*Font Info-------------------------------------------
@@ -304,13 +301,89 @@ li.gallerylist {
 	border-width: 0px 1px 1px 0px;
 	text-align: left;
 	padding: 7px;
-	font-size: 12px;
+	font-size: 0.750em;
 	font-family: Helvetica;
 	font-weight: bold;
 	color: #2D032E;
 	background-color: #FA4225;
  	opacity:  0.699999988079071044921875;
   	filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+/*************************form*************************************************/
+
+form {
+	width: 430px; 
+	margin: 20px auto; 
+	padding: 40px 30px;
+	background: #2D032E; 
+	border: 1px solid #FA4225;
+	-moz-box-shadow: 0px 0px 8px #444;
+	-webkit-box-shadow: 0px 0px 8px #444;
+}
+
+.form_title {
+	font: 2.0em Capriola, Helvetica, Arial, sans-serif;
+	color: #FA4225;
+	text-align: center; 
+	text-shadow: 0px 1px 0px #25303c;
+}
+
+label {
+	float: left; 
+	clear: left; 
+	margin: 11px 15px 0 0; 
+	width: 95px;
+	text-align: right; 
+	font-size: 0.813em; 
+	color: #fff; 
+	text-transform: uppercase; 
+	text-shadow: 0px 1px 0px #f2f2f2;
+}
+
+input {
+	width: 260px; 
+	height: 35px; 
+	padding: 5px 20px 0px 20px; 
+	margin: 0 0 15px 0; 
+	background: #fff;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #f2f2f2;
+	-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+	font-family: sans-serif; 
+	font-size: 16px; color: #363C40; 
+	text-transform: uppercase; 
+	text-shadow: 0px -1px 0px #334f71; 
+}
+
+input:-webkit-input-placeholder  {
+    color: #363C40; 
+    text-shadow: 0px -1px 0px #444;  
+}
+
+input:-moz-placeholder {
+	color: #363C40; 
+	text-shadow: 0px -1px 0px #444; 
+}
+
+input:focus, textarea:focus {
+	background: #C2CF4A;
+}
+
+input[type=submit] {
+	width: 185px; 
+	height: 35px; 
+	float: right; 
+	clear: both;
+	padding: 10px 15px; 
+	margin: 20px 15px 0 0;
+	-moz-box-shadow: 0px 0px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px #999;
+	border: 1px solid #92C425;
+	background: -moz-linear-gradient(top, #6c911b 0%, #92C425 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6c911b), color-stop(100%,#92c425));
 }
 	
 /*************************footer*************************************************/
